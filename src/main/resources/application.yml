@@ -1,0 +1,14 @@
+# ---
+# application configuration; endpoints and jwt config
+# ---
+micronaut:
+    application:
+      name: pangaeatestsubscribers
+    server:
+      port: 9000
+
+# ---
+# for customized json data encoding and decoding
+# ---
+jackson:
+  bean-introspection-module: true
