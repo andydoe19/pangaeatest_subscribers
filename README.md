@@ -21,7 +21,7 @@ for developing responsive and fast microservices. More about Micronaut are below
 
 ## Project Setup
 After cloning the project with Git, open IntelliJ and Click on File > Open.
-Navigate to "pangaeatest_subscriptionserver" project and open it. 
+Navigate to "pangaeatest_subscribers" project and open it. 
 
 When asked by IntelliJ to enable auto import for gradle, enable it. 
 Else if project hasn't started importing gradle dependencies, click on Gradle tab on the far right,
@@ -42,7 +42,7 @@ $ gradlew run
 ```
 
 After running the project has run successfully using the `run project` command above,
-you can test the project with the url - http://localhost:8000 <br /><br />
+you can test the project with the url - http://localhost:9000 <br /><br />
 
 ## Testing
 To check if the test subscriber endpoints receive the message anytime the publish API is fired from the subscription server,
